@@ -1,0 +1,4 @@
+﻿Message Number,Name,Content
+M0001,FileNotFound,The specified file is not found.
+M0002,FileNotSpecified,The file path is not specified.
+M0003,OperationCompleted,The operation has been completed.
