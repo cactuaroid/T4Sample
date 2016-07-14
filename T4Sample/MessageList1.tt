@@ -25,5 +25,5 @@
                 new XElement("severity", elements[3])));
     }
 
-    return doc.ToString();
+    Write(doc.ToString());
 #>
