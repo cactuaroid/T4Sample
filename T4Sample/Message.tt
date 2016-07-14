@@ -16,16 +16,16 @@ namespace T4Sample.Message
     public class MyMessage
     {
 <#
-var lines = File.ReadLines(this.Host.ResolvePath("MessageDefinition.csv"));
-foreach (var line in lines.Skip(1))
-{
-    var elements = line.Split(',').ToArray();
+    var lines = File.ReadLines(this.Host.ResolvePath("MessageDefinition.csv"));
+    foreach (var line in lines.Skip(1))
+    {
+        var elements = line.Split(',').ToArray();
 #>
         /// <summary><#= elements[2] #></summary>
         public static string <#= elements[1] #> = "<#= elements[0] #>";
 
 <#
-}
+    }
 #>
     }
 }
