@@ -1,0 +1,17 @@
+﻿<root>
+  <message number="M0001">
+    <name>FileNotFound</name>
+    <content>The specified file is not found.</content>
+    <severity>Error</severity>
+  </message>
+  <message number="M0002">
+    <name>FileNotSpecified</name>
+    <content>The file path is not specified.</content>
+    <severity>Error</severity>
+  </message>
+  <message number="M0003">
+    <name>OperationCompleted</name>
+    <content>The operation has been completed.</content>
+    <severity>Info</severity>
+  </message>
+</root>

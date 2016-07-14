@@ -60,6 +60,24 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Message.cs</LastGenOutput>
     </Content>
+    <Content Include="MessageList1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>MessageList1.xml</LastGenOutput>
+    </Content>
+    <Content Include="MessageList1.xml">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MessageList1.tt</DependentUpon>
+    </Content>
+    <Content Include="MessageList2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>MessageList2.xml</LastGenOutput>
+    </Content>
+    <Content Include="MessageList2.xml">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MessageList2.tt</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
